@@ -7,10 +7,10 @@ load_dotenv()
 
 
 # Mandatory variables for the bot to start
-API_ID = int(os.getenv("API_ID", "Your Api Id"))
-API_HASH = os.environ.get("API_HASH", "Your Api Hash")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "Bot Token")
-ADMINS = [int(i.strip()) for i in os.environ.get("ADMINS").split("Owner Id")] if os.environ.get("ADMINS") else []
+API_ID = int(os.getenv("API_ID", "28430134"))
+API_HASH = os.environ.get("API_HASH", "c3cd07e1c60c6ab046ef34a8d5aa7514")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "6181732075:AAEdRy-OmccQPFFf8SfRNfStckH_GUqAFFw")
+ADMINS = [int(i.strip()) for i in os.environ.get("5992637806").split("Owner Id")] if os.environ.get("ADMINS") else []
 ADMIN = ADMINS
 DATABASE_NAME = os.environ.get("DATABASE_NAME", "Db Name")
 DATABASE_URL = os.getenv("DATABASE_URL", "Monfo url") 
